@@ -12,9 +12,7 @@ import {
   Avatar,
 } from "@shopify/polaris";
 
-export const loader = async () => {
-  return null;
-};
+export const loader = async () => null;
 
 export default function ReviewsPage() {
   const [reviews, setReviews] = useState([]);
